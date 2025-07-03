@@ -206,3 +206,8 @@ for (pathname, df) in zip([lawtonka_path_outflow, ellsworth_path_outflow], [lawt
         fid.put_ts(tsc)
 
 # %%
+# check the data types of the time column
+print("Data type of the time column in Lake Lawtonka DataFrame:", lawtonka_df.index.dtype)
+print("Data type of the time column in Lake Ellsworth DataFrame:", ellsworth_df.index.dtype)
+
+# %%
